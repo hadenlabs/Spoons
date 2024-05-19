@@ -1,4 +1,5 @@
-version: '3'
+---
+version: "3"
 
 includes:
   changelog: ./provision/task/changelog.yml
@@ -32,14 +33,15 @@ dotenv:
   - .env
 
 vars:
-  PROJECT_NAME: base-template
+  PROJECT_NAME: spoons
   GROUP_NAME: hadenlabs
   ORGANIZATION: hadenlabs
+  DOCKER_PLATFORM: linux/amd64
   REVIEWERS: luismayta
-  PYTHON_VERSION: 3.10.6
+  PYTHON_VERSION: 3.11.5
   NODE_VERSION: 16.6.1
+  TERRAFORM_VERSION: 1.8.3
   GIT_IGNORES: python,node,go,zsh,sonar,java,maven,intellij+all,terraform,linux
-  DOCKER_PLATFORMS: linux/amd64
   GOLANGCI_VERSION: 1.42.0
   README_FILE: README.md
   GIT_IGNORES_CUSTOM: |
@@ -51,6 +53,7 @@ vars:
     .task
     .terraform.lock.hcl
     *.lock.hcl
+    *.lock
     *.zip
     .external_modules
     vendor
@@ -68,7 +71,7 @@ tasks:
     silent: true
 
   summary:
-    desc: 'Summary information'
+    desc: "Summary information"
     cmds:
       - echo Go available {{.GO}}
       - echo Python available {{.PYTHON}}
@@ -77,7 +80,7 @@ tasks:
     silent: true
 
   check:
-    desc: 'Check all dependencies'
+    desc: "Check all dependencies"
     deps:
       - python:check
       - changelog:check
@@ -103,11 +106,10 @@ tasks:
       - task: prettier:all
 
   upgrade:
-    run: once
     desc: Execute upgrade packages
     cmds:
-      - >-
-        pipenv run pre-commit autoupdate
+      - poetry update
+      - poetry run pre-commit autoupdate
 
   setup:
     desc: Setup dependences of project
