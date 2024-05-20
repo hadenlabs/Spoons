@@ -1,1 +1,1 @@
-# Welcome to spoons documentation
+# Welcome to Spoons documentation

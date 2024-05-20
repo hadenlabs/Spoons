@@ -12,11 +12,11 @@
 
   -->
 
-[![Latest Release](https://img.shields.io/github/release/hadenlabs/spoons)](https://github.com/hadenlabs/spoons/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/spoons/lint-code)](https://github.com/hadenlabs/spoons/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/spoons/ci)](https://github.com/hadenlabs/spoons/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/spoons/test)](https://github.com/hadenlabs/spoons/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
+[![Latest Release](https://img.shields.io/github/release/hadenlabs/Spoons)](https://github.com/hadenlabs/Spoons/releases) [![Lint](https://img.shields.io/github/workflow/status/hadenlabs/Spoons/lint-code)](https://github.com/hadenlabs/Spoons/actions?workflow=lint-code) [![CI](https://img.shields.io/github/workflow/status/hadenlabs/Spoons/ci)](https://github.com/hadenlabs/Spoons/actions?workflow=ci) [![Test](https://img.shields.io/github/workflow/status/hadenlabs/Spoons/test)](https://github.com/hadenlabs/Spoons/actions?workflow=test) [![pre-commit](https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit) [![Conventional Commits](https://img.shields.io/badge/Conventional%20Commits-1.0.0-yellow)](https://conventionalcommits.org) [![KeepAChangelog](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.0.0-orange)](https://keepachangelog.com)
 
-# spoons
+# Spoons
 
-spoons for project
+Spoons for project
 
 ## Requirements
 
@@ -33,7 +33,7 @@ This is a list of plugins that need to be installed previously to enjoy all the 
 ## Replace name project to New Project
 
 ```bash
-agr 'spoons' 'new-project'
+agr 'Spoons' 'new-project'
 ```
 
 ## Examples
@@ -51,7 +51,7 @@ agr 'spoons' 'new-project'
 
 **Got a question?**
 
-File a GitHub [issue](https://github.com/hadenlabs/spoons/issues).
+File a GitHub [issue](https://github.com/hadenlabs/Spoons/issues).
 
 ## Contributing
 
@@ -84,6 +84,6 @@ All other trademarks referenced herein are the property of their respective owne
 
 The code and styles are licensed under the LGPL-3.0 license [See project license.](LICENSE).
 
-## Don't forget to 🌟 Star 🌟 the repo if you like spoons
+## Don't forget to 🌟 Star 🌟 the repo if you like Spoons
 
-[Your feedback is appreciated](https://github.com/hadenlabs/spoons/issues)
+[Your feedback is appreciated](https://github.com/hadenlabs/Spoons/issues)

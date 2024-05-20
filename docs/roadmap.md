@@ -29,7 +29,7 @@
 
 The Roadmap is a list of all the things we're working on for the year.
 
-You can see the corresponding projects on [spoons](https://github.com/hadenlabs/spoons)
+You can see the corresponding projects on [Spoons](https://github.com/hadenlabs/Spoons)
 
 ## Legend
 

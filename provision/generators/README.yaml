@@ -5,7 +5,7 @@
 #
 
 # Name of this project
-name: spoons
+name: Spoons
 
 email:
   support: support@hadenlabs.com
@@ -17,22 +17,22 @@ email:
 license: "LGPL-3.0"
 
 # Canonical GitHub repo
-github_repo: hadenlabs/spoons
+github_repo: hadenlabs/Spoons
 
 # Badges to display
 badges:
   - name: Latest Release
-    image: https://img.shields.io/github/release/hadenlabs/spoons
-    url: https://github.com/hadenlabs/spoons/releases
+    image: https://img.shields.io/github/release/hadenlabs/Spoons
+    url: https://github.com/hadenlabs/Spoons/releases
   - name: Lint
-    image: https://img.shields.io/github/workflow/status/hadenlabs/spoons/lint-code
-    url: https://github.com/hadenlabs/spoons/actions?workflow=lint-code
+    image: https://img.shields.io/github/workflow/status/hadenlabs/Spoons/lint-code
+    url: https://github.com/hadenlabs/Spoons/actions?workflow=lint-code
   - name: CI
-    image: https://img.shields.io/github/workflow/status/hadenlabs/spoons/ci
-    url: https://github.com/hadenlabs/spoons/actions?workflow=ci
+    image: https://img.shields.io/github/workflow/status/hadenlabs/Spoons/ci
+    url: https://github.com/hadenlabs/Spoons/actions?workflow=ci
   - name: Test
-    image: https://img.shields.io/github/workflow/status/hadenlabs/spoons/test
-    url: https://github.com/hadenlabs/spoons/actions?workflow=test
+    image: https://img.shields.io/github/workflow/status/hadenlabs/Spoons/test
+    url: https://github.com/hadenlabs/Spoons/actions?workflow=test
   - name: pre-commit
     image: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit&logoColor=white
     url: https://github.com/pre-commit/pre-commit
@@ -54,7 +54,7 @@ requirements: |-
 # Short description of this project
 description: |-
 
-  spoons for project
+  Spoons for project
 
 usages:
   - docs/usage.md

@@ -1,9 +1,9 @@
 # This is an example goreleaser.yaml file with some sane defaults.
 # Make sure to check the documentation at http://goreleaser.com
-project_name: spoons
+project_name: Spoons
 env:
   - GO111MODULE=on
-  - REPO=github.com/hadenlabs/spoons
+  - REPO=github.com/hadenlabs/Spoons
 before:
   hooks:
     - go mod download
@@ -67,7 +67,7 @@ changelog:
 release:
   github:
     owner: hadenlabs
-    name: spoons
+    name: Spoons
   draft: true
   prerelease: auto
   name_template: "{{.ProjectName}}-v{{.Version}}-{{.ShortCommit}}-{{.Date}}"

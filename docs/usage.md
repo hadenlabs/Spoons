@@ -3,5 +3,5 @@
 ## Replace name project to New Project
 
 ```bash
-agr 'spoons' 'new-project'
+agr 'Spoons' 'new-project'
 ```

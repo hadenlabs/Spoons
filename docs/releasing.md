@@ -11,7 +11,7 @@
 
 ## Bump a new version
 
-Make a new version of spoons in the following steps:
+Make a new version of Spoons in the following steps:
 
 ### Generate version major
 

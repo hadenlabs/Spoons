@@ -8,11 +8,11 @@
 
 # How To Contribute
 
-Contributions to spoons are welcome.
+Contributions to Spoons are welcome.
 
 Feel free to use all of the contribution options:
 
-- Contribute to spoons repositories on [GitHub](https://github.com/hadenlabs/spoons). See [Git flow](./contribute/github-flow.md).
+- Contribute to Spoons repositories on [GitHub](https://github.com/hadenlabs/Spoons). See [Git flow](./contribute/github-flow.md).
 
 ## Getting Started
 
@@ -73,7 +73,7 @@ See [Git flow](./contribute/github-flow.md).
 
 ### Documentation
 
-Documentation is a part of the spoons code base. You can find the documentation files in the `doc/` subdirectory of the [main repository](https://github.com/hadenlabs/spoons). This means that the contribution process is the same for both the source code and documentation.
+Documentation is a part of the Spoons code base. You can find the documentation files in the `doc/` subdirectory of the [main repository](https://github.com/hadenlabs/Spoons). This means that the contribution process is the same for both the source code and documentation.
 
 ### Testing
 
@@ -81,15 +81,15 @@ See [Testing](./testing.md).
 
 ### Code Submission
 
-1.  See if a [Pull Request](https://github.com/hadenlabs/spoons/pulls) exists
+1.  See if a [Pull Request](https://github.com/hadenlabs/Spoons/pulls) exists
     - Add some comments or review the code to help it along
     - Don\'t be afraid to comment when logic needs clarification
-2.  Create a Fork and open a [Pull Request](https://github.com/hadenlabs/spoons/pulls) if needed
+2.  Create a Fork and open a [Pull Request](https://github.com/hadenlabs/Spoons/pulls) if needed
 
 ### Code Review
 
 - Anyone can review code
-- Any [Pull Request](https://github.com/hadenlabs/spoons/pulls) should be closed or merged within a week
+- Any [Pull Request](https://github.com/hadenlabs/Spoons/pulls) should be closed or merged within a week
 
 ### Code Acceptance
 
